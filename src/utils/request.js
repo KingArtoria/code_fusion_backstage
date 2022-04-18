@@ -1,7 +1,8 @@
 import axios from 'axios'
 import { Message } from 'element-ui'
 const service = axios.create({
-  baseURL: 'https://asd.bdhuoke.com/api',
+  baseURL: 'http://127.0.0.1',
+  // baseURL: 'https://asd.bdhuoke.com/api',
   timeout: 5000
 })
 service.interceptors.response.use(
